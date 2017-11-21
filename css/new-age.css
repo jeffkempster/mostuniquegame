@@ -61,6 +61,7 @@ section {
     color: #fdcc52;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
+    font-size: 24px;
     letter-spacing: 1px; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #fcbd20; }
@@ -118,7 +119,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: #7b4397;
+  background: #48266A;
   /*background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);*/
   /*background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); */
   }
@@ -277,10 +278,20 @@ footer {
       footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
         text-decoration: none; }
 
+.list-inline-item {
+  padding-left: 40px;
+    padding-right: 40px;
+}
 .bg-primary {
   background: #F9B248;
   background: -webkit-linear-gradient(#F9B248, #CF943C);
   background: linear-gradient(#F9B248, #CF943C); }
+
+.bg-dark-primary {
+  background: #424242;
+  background: -webkit-linear-gradient(#424242, #424242);
+  background: linear-gradient(#424242, #424242); }
+
 
 .text-primary {
   color: #fdcc52; }
