@@ -58,7 +58,7 @@ section {
   font-weight: 200;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
-    color: #fdcc52;
+    color: #360454;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     font-size: 24px;
@@ -89,10 +89,13 @@ section {
     #mainNav {
       border-color: transparent;
       background-color: transparent; }
+
+
+      /* nav bar title when large */
       #mainNav .navbar-brand {
-        color: fade(white, 70%); }
+        color: white;/*fade(white, 70%);*/ }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-          color: white; }
+          color: #F9B248; }
       #mainNav .navbar-nav > li > a,
       #mainNav .navbar-nav > li > a:focus {
         color: rgba(255, 255, 255, 0.7); }
@@ -100,7 +103,7 @@ section {
         #mainNav .navbar-nav > li > a:focus:hover {
           color: white; }
       #mainNav.navbar-shrink {
-        border-color: rgba(34, 34, 34, 0.1);
+        border-color: rgba(99, 34, 34, 0.1);
         background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
           color: #222222; }
